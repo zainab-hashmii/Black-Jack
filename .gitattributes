@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
+# Auto normalize line endings
 * text=auto
+
+# Set C++ files to be recognized as text
+*.cpp text
+*.h text
+
+# Treat Markdown as text
+*.md text
+
+# Treat build files as binary (optional if you generate .exe or similar)
+*.exe binary
+*.dll binary
